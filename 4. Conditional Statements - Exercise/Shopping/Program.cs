@@ -17,10 +17,9 @@ namespace Shopping
 
             double totalPrice = gpuPrice + cpuPrice + ramPrice;
 
-            //double discountedTotalPrice = 0.0;
+            
             if (gpuAmount > cpuAmount)
             {
-                //discountedTotalPrice = totalPrice - (totalPrice * 0.15);
                 totalPrice -= totalPrice * 0.15;
             }
 
