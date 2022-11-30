@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GodzillaVS.Kong", "Godzilla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldSwimRecord", "WorldSwimRecord\WorldSwimRecord.csproj", "{DF284E44-8225-45C5-845A-1C647AA3605F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping", "Shopping\Shopping.csproj", "{473CEF51-12FA-4997-9434-4481945DA4D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping", "Shopping\Shopping.csproj", "{473CEF51-12FA-4997-9434-4481945DA4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuchBreak", "LuchBreak\LuchBreak.csproj", "{8FC2A188-3E24-4754-8963-DB066434651C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{473CEF51-12FA-4997-9434-4481945DA4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473CEF51-12FA-4997-9434-4481945DA4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473CEF51-12FA-4997-9434-4481945DA4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC2A188-3E24-4754-8963-DB066434651C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC2A188-3E24-4754-8963-DB066434651C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC2A188-3E24-4754-8963-DB066434651C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC2A188-3E24-4754-8963-DB066434651C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
