@@ -10,11 +10,12 @@ namespace LuchBreak
             int episodeDuration = int.Parse(Console.ReadLine());
             int breakDuration = int.Parse(Console.ReadLine());
 
-            double luchTime = breakDuration * 1 / 8.0;
-            double breakTime = breakDuration * 1 / 4.0;
-            double remainingTime = breakDuration - luchTime - breakTime;
+            double luchTime = breakDuration / 8.0;
+            double breakTime = breakDuration / 4.0;
 
-            double expectedTime = episodeDuration - remainingTime;
+            double remainingTime = breakDuration - (luchTime + breakTime);
+
+            double expectedTime = remainingTime - episodeDuration;
 
             if (remainingTime >= episodeDuration)
             {
@@ -24,7 +25,7 @@ namespace LuchBreak
             else
             {
                 Console.WriteLine($"You don't have enough time to watch {seriesName}" +
-                    $", you need {Math.Ceiling(expectedTime)} more minutes.");
+                    $", you need {Math.Ceiling(Math.Abs(expectedTime))} more minutes.");
             }
         }
     }
