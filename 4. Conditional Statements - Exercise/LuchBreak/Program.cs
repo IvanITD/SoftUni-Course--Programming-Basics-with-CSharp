@@ -14,17 +14,17 @@ namespace LuchBreak
             double breakTime = breakDuration * 1 / 4.0;
             double remainingTime = breakDuration - luchTime - breakTime;
 
-            double neededTime = episodeDuration - remainingTime;
+            double expectedTime = episodeDuration - remainingTime;
 
             if (remainingTime >= episodeDuration)
             {
                 Console.WriteLine($"You have enough time to watch {seriesName}" +
-                    $" and left with {Math.Ceiling(neededTime)} minutes free time.");
+                    $" and left with {Math.Ceiling(expectedTime)} minutes free time.");
             }
             else
             {
                 Console.WriteLine($"You don't have enough time to watch {seriesName}" +
-                    $", you need {Math.Ceiling(neededTime)} more minutes.");
+                    $", you need {Math.Ceiling(expectedTime)} more minutes.");
             }
         }
     }
