@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PersonalTitles_If_
+namespace PersonalTitles
 {
     internal class Program
     {
