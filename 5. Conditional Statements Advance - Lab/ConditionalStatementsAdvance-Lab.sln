@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekendOrWorkingDay(Switch)
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalType(If)", "AnimalType(If)\AnimalType(If).csproj", "{01B31F97-5AA9-46A5-99D8-56409004792D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalType(Switch)", "AnimalType(Switch)\AnimalType(Switch).csproj", "{6672FF76-1062-4185-A8E2-C73BF4A33174}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{01B31F97-5AA9-46A5-99D8-56409004792D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B31F97-5AA9-46A5-99D8-56409004792D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B31F97-5AA9-46A5-99D8-56409004792D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6672FF76-1062-4185-A8E2-C73BF4A33174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6672FF76-1062-4185-A8E2-C73BF4A33174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6672FF76-1062-4185-A8E2-C73BF4A33174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6672FF76-1062-4185-A8E2-C73BF4A33174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
