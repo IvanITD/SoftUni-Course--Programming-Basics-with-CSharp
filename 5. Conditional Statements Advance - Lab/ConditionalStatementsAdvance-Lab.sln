@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek(Switch)", "DayOfW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekendOrWorkindDay", "WeekendOrWorkindDay\WeekendOrWorkindDay.csproj", "{A56B1AFE-8833-482E-9C77-D6C91D22A1B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekendOrWorkingDay(Switch)", "WeekendOrWorking\WeekendOrWorkingDay(Switch).csproj", "{DF4E692F-02D0-4F79-8634-61999F580ED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A56B1AFE-8833-482E-9C77-D6C91D22A1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56B1AFE-8833-482E-9C77-D6C91D22A1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56B1AFE-8833-482E-9C77-D6C91D22A1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4E692F-02D0-4F79-8634-61999F580ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4E692F-02D0-4F79-8634-61999F580ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4E692F-02D0-4F79-8634-61999F580ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4E692F-02D0-4F79-8634-61999F580ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
