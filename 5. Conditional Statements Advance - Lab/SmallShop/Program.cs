@@ -2,87 +2,92 @@
 
 namespace SmallShop
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            string product = Console.ReadLine();
+            // Alt + Arrow Up Up/Down - move current line
+
+            //Read the input
+            string item = Console.ReadLine();
             string city = Console.ReadLine();
             double quantity = double.Parse(Console.ReadLine());
 
-            double price = 0.0;
+            double price = 0;
 
             if (city == "Sofia")
             {
-                if (product == "coffee")
+                if (item == "coffee")
                 {
-                    price = quantity * 0.50;
+                    price = 0.50;
                 }
-                else if (product == "water")
+                else if (item == "water")
                 {
-                    price = quantity * 0.80;
+                    price = 0.80;
                 }
-                else if (product == "beer")
+                else if (item == "beer")
                 {
-                    price = quantity * 1.20;
+                    price = 1.20;
                 }
-                else if (product == "sweets")
+                else if (item == "sweets")
                 {
-                    price = quantity * 1.45;
+                    price = 1.45;
                 }
-                else if (product == "peanuts")
+                else if (item == "peanuts")
                 {
-                    price = quantity * 1.60;
+                    price = 1.60;
                 }
             }
             else if (city == "Plovdiv")
             {
-                if (product == "coffee")
+                if (item == "coffee")
                 {
-                    price = quantity * 0.40;
+                    price = 0.40;
                 }
-                else if (product == "water")
+                else if (item == "water")
                 {
-                    price = quantity * 0.70;
+                    price = 0.70;
                 }
-                else if (product == "beer")
+                else if (item == "beer")
                 {
-                    price = quantity * 1.15;
+                    price = 1.15;
                 }
-                else if (product == "sweets")
+                else if (item == "sweets")
                 {
-                    price = quantity * 1.30;
+                    price = 1.30;
                 }
-                else if (product == "peanuts")
+                else if (item == "peanuts")
                 {
-                    price = quantity * 1.50;
+                    price = 1.50;
                 }
             }
             else if (city == "Varna")
             {
-                if (product == "coffee")
+                if (item == "coffee")
                 {
-                    price = quantity * 0.45;
+                    price = 0.45;
                 }
-                else if (product == "water")
+                else if (item == "water")
                 {
-                    price = quantity * 0.70;
+                    price = 0.70;
                 }
-                else if (product == "beer")
+                else if (item == "beer")
                 {
-                    price = quantity * 1.10;
+                    price = 1.10;
                 }
-                else if (product == "sweets")
+                else if (item == "sweets")
                 {
-                    price = quantity * 1.35;
+                    price = 1.35;
                 }
-                else if (product == "peanuts")
+                else if (item == "peanuts")
                 {
-                    price = quantity * 1.55;
+                    price = 1.55;
                 }
             }
 
-            Console.WriteLine(Math.Abs(price));
+            double total = quantity * price;
+
+            Console.WriteLine(total);
         }
     }
 }
