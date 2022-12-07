@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WeekendOrWorkindDay
+namespace WeekendOrWorkindDay_If
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DayOfWeek
+namespace DayOfWeek_If
 {
     internal class Program
     {
