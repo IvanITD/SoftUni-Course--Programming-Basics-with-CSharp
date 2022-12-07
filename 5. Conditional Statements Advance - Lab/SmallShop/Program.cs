@@ -6,9 +6,6 @@ namespace SmallShop
     {
         static void Main(string[] args)
         {
-            // Alt + Arrow Up Up/Down - move current line
-
-            //Read the input
             string item = Console.ReadLine();
             string city = Console.ReadLine();
             double quantity = double.Parse(Console.ReadLine());
