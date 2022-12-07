@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTitles", "PersonalT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallShop", "SmallShop\SmallShop.csproj", "{768BECB8-FE73-43C9-896D-A2BFB78AB002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInRange", "NumberInRange\NumberInRange.csproj", "{167AA750-B259-4577-9CB1-C5AF11B36AE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{768BECB8-FE73-43C9-896D-A2BFB78AB002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{768BECB8-FE73-43C9-896D-A2BFB78AB002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{768BECB8-FE73-43C9-896D-A2BFB78AB002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167AA750-B259-4577-9CB1-C5AF11B36AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167AA750-B259-4577-9CB1-C5AF11B36AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167AA750-B259-4577-9CB1-C5AF11B36AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167AA750-B259-4577-9CB1-C5AF11B36AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
