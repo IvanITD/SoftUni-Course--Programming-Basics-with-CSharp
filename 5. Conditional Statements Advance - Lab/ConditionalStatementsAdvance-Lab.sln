@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberInRange", "NumberInRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingHours", "WorkingHours\WorkingHours.csproj", "{0343216E-3004-4442-866B-2459BEBBB925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaTicket", "CinemaTicket\CinemaTicket.csproj", "{8306B97B-5A88-471D-8A54-DB449F5949B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaTicket (If)", "CinemaTicket\CinemaTicket (If).csproj", "{8306B97B-5A88-471D-8A54-DB449F5949B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaTicket(Switch)", "CinemaTicket-Switch\CinemaTicket(Switch).csproj", "{AD1ED814-A348-44C0-822B-C55698688CF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{8306B97B-5A88-471D-8A54-DB449F5949B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8306B97B-5A88-471D-8A54-DB449F5949B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8306B97B-5A88-471D-8A54-DB449F5949B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1ED814-A348-44C0-822B-C55698688CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1ED814-A348-44C0-822B-C55698688CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1ED814-A348-44C0-822B-C55698688CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1ED814-A348-44C0-822B-C55698688CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

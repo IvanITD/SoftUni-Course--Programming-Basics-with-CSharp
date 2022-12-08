@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CinemaTicket
+namespace CinemaTicket_If_
 {
     internal class Program
     {
@@ -8,27 +8,6 @@ namespace CinemaTicket
         {
             string weekDay = Console.ReadLine();
 
-            switch (weekDay)
-            {
-                case "Monday":
-                case "Tuesday":
-                case "Friday":
-                    Console.WriteLine("12");
-                    break;
-
-                case "Wednesday":
-                case "Thursday":
-                    Console.WriteLine("14");
-                    break;
-
-                case "Saturday":
-                case "Sunday":
-                    Console.WriteLine("16");
-                    break;
-            }
-
-
-            /*
             if (weekDay == "Monday")
             {
                 Console.WriteLine("12");
@@ -57,8 +36,6 @@ namespace CinemaTicket
             {
                 Console.WriteLine("16");
             }
-            */
-
         }
     }
 }
