@@ -39,7 +39,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop(If)", "FruitShop\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShop(Switch)", "FruitShop(Switch)\FruitShop(Switch).csproj", "{3A6CE5CB-CEC1-46E8-98CE-F13D1A07337C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCommissions", "TradeCommissions\TradeCommissions.csproj", "{E626E93F-A301-4C52-BD44-9443F8118FD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCommissions(If)", "TradeCommissions\TradeCommissions(If).csproj", "{E626E93F-A301-4C52-BD44-9443F8118FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCommissions(Switch)", "TradeCommissions-\TradeCommissions(Switch).csproj", "{34A0C8C7-D155-4D1F-8D60-1DBA84851BBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{E626E93F-A301-4C52-BD44-9443F8118FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E626E93F-A301-4C52-BD44-9443F8118FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E626E93F-A301-4C52-BD44-9443F8118FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A0C8C7-D155-4D1F-8D60-1DBA84851BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A0C8C7-D155-4D1F-8D60-1DBA84851BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A0C8C7-D155-4D1F-8D60-1DBA84851BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A0C8C7-D155-4D1F-8D60-1DBA84851BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
