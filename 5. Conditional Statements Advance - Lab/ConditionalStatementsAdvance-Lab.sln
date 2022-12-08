@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitOrVegetable(Switch)", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invalid Number", "Invalid Number\Invalid Number.csproj", "{CA2BCDDA-951F-4EF6-A8C8-38D7CFD80E72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invalid Number-Bool", "Invalid Number-Bool\Invalid Number-Bool.csproj", "{DD54CB3A-B6E5-4ADF-A610-2F6C7F99758A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CA2BCDDA-951F-4EF6-A8C8-38D7CFD80E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2BCDDA-951F-4EF6-A8C8-38D7CFD80E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2BCDDA-951F-4EF6-A8C8-38D7CFD80E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD54CB3A-B6E5-4ADF-A610-2F6C7F99758A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD54CB3A-B6E5-4ADF-A610-2F6C7F99758A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD54CB3A-B6E5-4ADF-A610-2F6C7F99758A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD54CB3A-B6E5-4ADF-A610-2F6C7F99758A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
