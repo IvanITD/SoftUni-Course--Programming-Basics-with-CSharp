@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaTicket(Switch)", "Cin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitOrVegetable(If)", "FruitOrVegetable\FruitOrVegetable(If).csproj", "{EDEBC1A4-C2D0-43A4-979C-1B7A6FE4E377}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitOrVegetable(Switch)", "FruitOrVegetable-\FruitOrVegetable(Switch).csproj", "{A520CE1A-2F73-4376-B2A1-38003204657E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EDEBC1A4-C2D0-43A4-979C-1B7A6FE4E377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEBC1A4-C2D0-43A4-979C-1B7A6FE4E377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEBC1A4-C2D0-43A4-979C-1B7A6FE4E377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A520CE1A-2F73-4376-B2A1-38003204657E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A520CE1A-2F73-4376-B2A1-38003204657E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A520CE1A-2F73-4376-B2A1-38003204657E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A520CE1A-2F73-4376-B2A1-38003204657E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
