@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema(If)", "Cinema\Cinema
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema(Switch)", "Cinema-S\Cinema(Switch).csproj", "{C324C0D8-44AA-409C-AE26-38B4566E8C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit", "SummerOu\SummerOutfit.csproj", "{5C106D6A-062D-42B2-9BE9-8DAFA24F1CEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(If)", "SummerOu\SummerOutfit(If).csproj", "{5C106D6A-062D-42B2-9BE9-8DAFA24F1CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

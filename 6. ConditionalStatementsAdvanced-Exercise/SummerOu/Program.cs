@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SummerOu
+namespace SummerOutfit_If_
 {
     internal class Program
     {
