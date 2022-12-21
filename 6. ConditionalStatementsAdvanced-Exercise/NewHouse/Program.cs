@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NewHouse
+namespace NewHouse_If_
 {
     internal class Program
     {
