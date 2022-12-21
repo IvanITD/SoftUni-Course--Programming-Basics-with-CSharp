@@ -8,90 +8,64 @@ namespace NewHouse
         {
             string flowersType = Console.ReadLine();
             int flowersAmount = int.Parse(Console.ReadLine());
-            double budget = double.Parse(Console.ReadLine());
+            int budget = int.Parse(Console.ReadLine());
 
-            double totalPrice = 0.0;
+            double totalPrice = 0.00;
 
-            double rosesPrice = 5.0;
+            double rosesPrice = 5.00;
             double dahliasPrice = 3.80;
             double tulipsPrice = 2.80;
-            double narcissusPrice = 3.0;
+            double narcissusPrice = 3.00;
             double gladiolusPrice = 2.50;
 
-            double discount;
-            
             if (flowersType == "Roses")
             {
-                if (flowersAmount >= 80)
+                totalPrice = flowersAmount * rosesPrice;
+                if (flowersAmount > 80)
                 {
-                    totalPrice = flowersAmount * rosesPrice;
-                    discount = totalPrice * 0.10;
-                    totalPrice -= discount;
-                }
-                else
-                {
-                    totalPrice = flowersAmount * rosesPrice;
+                    totalPrice -= totalPrice * 0.10;
                 }
             }
             else if (flowersType == "Dahlias")
             {
-                if (flowersAmount >= 90)
+                totalPrice = flowersAmount * dahliasPrice;
+                if (flowersAmount > 90)
                 {
-                    totalPrice = flowersAmount * dahliasPrice;
-                    discount = totalPrice * 0.15;
-                    totalPrice -= discount;
-                }
-                else
-                {
-                    totalPrice = flowersAmount * dahliasPrice;
+                    totalPrice -= totalPrice * 0.15;
                 }
             }
             else if (flowersType == "Tulips")
             {
-                if (flowersAmount >= 80)
-                {
-                    totalPrice = flowersAmount * tulipsPrice;
-                    discount = totalPrice * 0.15;
-                    totalPrice -= discount;
-                }
-                else
-                {
-                    totalPrice = flowersAmount * tulipsPrice;
+                totalPrice = flowersAmount * tulipsPrice;
+                if (flowersAmount > 80)
+                {   
+                    totalPrice -= totalPrice * 0.15;
                 }
             }
             else if (flowersType == "Narcissus")
             {
+                totalPrice = flowersAmount * narcissusPrice;
                 if (flowersAmount < 120)
                 {
-                    totalPrice = flowersAmount * narcissusPrice;
-                    discount = totalPrice * 0.15;
-                    totalPrice += discount;
-                }
-                else
-                {
-                    totalPrice = flowersAmount * narcissusPrice;
+                    totalPrice += totalPrice * 0.15;
                 }
             }
             else if (flowersType == "Gladiolus")
             {
+                totalPrice = flowersAmount * gladiolusPrice;
                 if (flowersAmount < 80)
                 {
-                    totalPrice = flowersAmount * gladiolusPrice;
-                    discount = totalPrice * 0.20;
-                    totalPrice += discount;
-                }
-                else
-                {
-                    totalPrice = flowersAmount * gladiolusPrice;
+
+                    totalPrice += totalPrice * 0.20;
                 }
             }
 
-            double remainingMoney = budget - totalPrice;
             double neededMoney = totalPrice - budget;
+            double remainingMoney = budget - totalPrice;
 
-            if (totalPrice >= budget)
+            if (totalPrice > budget)
             {
-                Console.WriteLine($"Not enough money, you need {Math.Abs(neededMoney):F2} leva more.");
+                Console.WriteLine($"Not enough money, you need {neededMoney:F2} leva more.");
             }
             else
             {
