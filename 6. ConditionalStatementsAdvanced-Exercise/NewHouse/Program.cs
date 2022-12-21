@@ -71,6 +71,7 @@ namespace NewHouse_If_
             {
                 Console.WriteLine($"Hey, you have a great garden with {flowersAmount} {flowersType} and {remainingMoney:F2} leva left.");
             }
+
         }
     }
 }

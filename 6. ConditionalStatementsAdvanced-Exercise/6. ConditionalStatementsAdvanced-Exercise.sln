@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(Switch)", "Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse(If)", "NewHouse\NewHouse(If).csproj", "{4479C5CA-E455-4037-B4D7-03C7850C9040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse(Switch)", "NewHous\NewHouse(Switch).csproj", "{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
