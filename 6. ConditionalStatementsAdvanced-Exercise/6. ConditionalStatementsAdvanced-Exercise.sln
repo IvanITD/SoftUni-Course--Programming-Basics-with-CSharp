@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(If)", "SummerO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(Switch)", "Summer\SummerOutfit(Switch).csproj", "{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse", "NewHouse\NewHouse.csproj", "{4479C5CA-E455-4037-B4D7-03C7850C9040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4479C5CA-E455-4037-B4D7-03C7850C9040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
