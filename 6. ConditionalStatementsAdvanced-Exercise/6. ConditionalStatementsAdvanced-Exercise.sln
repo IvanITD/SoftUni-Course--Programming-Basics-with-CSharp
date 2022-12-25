@@ -5,15 +5,17 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema(If)", "Cinema\Cinema(If).csproj", "{28FB0B9A-27FC-44C3-B362-F24A2439A53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema(Switch)", "Cinema-S\Cinema(Switch).csproj", "{C324C0D8-44AA-409C-AE26-38B4566E8C29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema(Switch)", "Cinema-S\Cinema(Switch).csproj", "{C324C0D8-44AA-409C-AE26-38B4566E8C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(If)", "SummerOu\SummerOutfit(If).csproj", "{5C106D6A-062D-42B2-9BE9-8DAFA24F1CEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummerOutfit(If)", "SummerOu\SummerOutfit(If).csproj", "{5C106D6A-062D-42B2-9BE9-8DAFA24F1CEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerOutfit(Switch)", "Summer\SummerOutfit(Switch).csproj", "{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummerOutfit(Switch)", "Summer\SummerOutfit(Switch).csproj", "{C22CB4CC-3B54-4DE1-92C9-0DCBDB9722E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse(If)", "NewHouse\NewHouse(If).csproj", "{4479C5CA-E455-4037-B4D7-03C7850C9040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewHouse(If)", "NewHouse\NewHouse(If).csproj", "{4479C5CA-E455-4037-B4D7-03C7850C9040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse(Switch)", "NewHous\NewHouse(Switch).csproj", "{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewHouse(Switch)", "NewHous\NewHouse(Switch).csproj", "{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishingBoat", "FishingBoat\FishingBoat.csproj", "{67729A10-63C8-4011-939D-CE254697C227}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD81141-16FA-434F-BA5B-58AECA7EDBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67729A10-63C8-4011-939D-CE254697C227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67729A10-63C8-4011-939D-CE254697C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67729A10-63C8-4011-939D-CE254697C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67729A10-63C8-4011-939D-CE254697C227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
