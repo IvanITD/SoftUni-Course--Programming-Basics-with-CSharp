@@ -12,119 +12,51 @@ namespace FishingBoat
 
             double rentPrice = 0.00;
 
-            if (season == "Spring")
+            switch (season)
             {
-                rentPrice = 3000;
-                if (fishersAmount <= 6)
-                {
-                    rentPrice -= rentPrice * 0.10;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount >= 7 && fishersAmount <= 11)
-                {
-                    rentPrice -= rentPrice * 0.15;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount > 12)
-                {
-                    rentPrice -= rentPrice * 0.25;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                
+                case "Spring":
+                    rentPrice = 3000.00;
+                    break;
+
+                case "Summer":
+                case "Autumn":
+                    rentPrice = 4200.00;
+                    break;
+
+                case "Winter":
+                    rentPrice = 2600.00;
+                    break;
             }
-            else if (season == "Summer")
+
+            if (fishersAmount <= 6)
             {
-                rentPrice = 4200;
-                if (fishersAmount <= 6)
-                {
-                    rentPrice -= rentPrice * 0.10;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount >= 7 && fishersAmount <= 11)
-                {
-                    rentPrice -= rentPrice * 0.15;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount > 12)
-                {
-                    rentPrice -= rentPrice * 0.25;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-               
+                rentPrice -= rentPrice * 0.10;
             }
-            else if (season == "Autumn")
+            else if (fishersAmount >= 7 && fishersAmount <= 11)
             {
-                rentPrice = 4200;
-                if (fishersAmount <= 6)
-                {
-                    rentPrice -= rentPrice * 0.10;
-                }
-                else if (fishersAmount >= 7 && fishersAmount <= 11)
-                {
-                    rentPrice -= rentPrice * 0.15;
-                }
-                else if (fishersAmount > 12)
-                {
-                    rentPrice -= rentPrice * 0.25;
-                }
+                rentPrice -= rentPrice * 0.15;
             }
-            else if (season == "Winter")
+            else if (fishersAmount > 12)
             {
-                rentPrice = 2600;
-                if (fishersAmount <= 6)
-                {
-                    rentPrice -= rentPrice * 0.10;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount >= 7 && fishersAmount <= 11)
-                {
-                    rentPrice -= rentPrice * 0.15;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
-                else if (fishersAmount > 12)
-                {
-                    rentPrice -= rentPrice * 0.25;
-                    if (fishersAmount % 2 == 0)
-                    {
-                        rentPrice -= rentPrice * 0.5;
-                    }
-                }
+                rentPrice -= rentPrice * 0.25;
             }
+
+            if (fishersAmount % 2 == 0 && season != "Autumn")
+            {
+                rentPrice -= rentPrice * 0.05;
+            }
+
 
             double remainingMoney = groupBudget - rentPrice;
             double neededMoney = rentPrice - groupBudget;
 
-            if (rentPrice >= groupBudget)
+            if (groupBudget >= rentPrice)
             {
-                Console.WriteLine($"Not enough money! You need {Math.Abs(neededMoney):F2} leva.");
+                Console.WriteLine($"Yes! You have {remainingMoney:F2} leva left.");
             }
             else
             {
-                Console.WriteLine($"Yes! You have {remainingMoney:F2} leva left.");
+                Console.WriteLine($"Not enough money! You need {Math.Abs(neededMoney):F2} leva.");
             }
         }
     }
